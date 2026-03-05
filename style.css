@@ -1,0 +1,30 @@
+body{
+    font-family: Arial;
+    text-align:center;
+}
+
+.panel{
+    margin-bottom:15px;
+}
+
+#tablero{
+    display:grid;
+    justify-content:center;
+}
+
+.celda{
+    width:40px;
+    height:40px;
+    border:1px solid black;
+    background:#c0c0c0;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.celda.abierta{
+    background:white;
+}
+
+.celda.mina{
+    background:red;
+}
